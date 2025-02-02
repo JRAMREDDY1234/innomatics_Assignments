@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker</title>
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+  </head>
+  <body>
+    <center>
+      <header>
+        <h1>Personal Budget Tracker</h1>
+        <a href="">Add Income/Expense</a><br>
+        <a href="">View Budget Summary</a>
+      </header>
+      <section>
+        <h1>Welcome to the Personal Budget Tracker</h1>
+        <p>This tracker helps you manage your monthly income and expenses. You can add new entries and view a detailed summary of your budget.</p>
+      </section>
+      <section>
+        <h1>Add New Income or Expense</h1>
+        <form>
+            <div>
+                <label for="amount">Amount: </label><input type="number" id="amount" required placeholder="Enter the amount">
+            </div><br>
+            <div>
+                <label for="Category">Category:</label>
+                <select name="Category" id="category">
+                    <option value="Food">Food</option>
+                    <option value="Transportation">Transportation</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Salary">Salary</option>
+                    <option value="Savings">Savings</option>
+                    <option value="Utilities">Utilities</option>
+                    <option value="Housing">Housing</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="description">Description: </label><input type="text" id="description" required placeholder="Enter the description">
+            </div><br>
+            <div>
+                <label for="date">Date:</label><input type="date" id="date">
+            </div><br>
+            <div>
+                <label for="Type">Type:</label>
+                <input type="radio" id="Income" name="Type" value="Income">
+                <label for="Income">Income</label>
+                <input type="radio" id="Expense" name="Type" value="Expense">
+                <label for="Expense">Expense</label>
+            </div><br>
+            <div>
+                <button>Add Entry</button>
+            </div>
+        </form>
+      </section>
+      <section>
+        <h1>Budget Summary</h1>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th rowspan="2">Category</th>
+                    <th colspan="2">Transaction Details</th>
+                    <th rowspan="2">Status</th>
+                    <th rowspan="2">Action</th>
+                </tr>
+                <tr>
+                    <th>Amount</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Food</td>
+                    <td>$200</td>
+                    <td>Groceries for the week</td>
+                    <td>Completed</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Transportation</td>
+                    <td>$100</td>
+                    <td>Monthly bus pass</td>
+                    <td>Completed</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Entertainment</td>
+                    <td>$50</td>
+                    <td>Cinema Tickets</td>
+                    <td>Completed</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Salary</td>
+                    <td>$3000</td>
+                    <td>Monthly salary payment</td>
+                    <td>Completed</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Savings</td>
+                    <td>$500</td>
+                    <td>Emergency fund deposit</td>
+                    <td>Pending</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Utilities</td>
+                    <td>$150</td>
+                    <td>Electricity bill</td>
+                    <td>Completed</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$50</td>
+                    <td>Water bill</td>
+                    <td>Pending</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Housing</td>
+                    <td>$1200</td>
+                    <td>Monthly rent</td>
+                    <td>Completed</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>$300</td>
+                    <td>Maintenance fee</td>
+                    <td>Pending</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+            <caption>Table: Income and Expenses of the month</caption>
+        </table><br>
+        <div>
+            <iframe width="996" height="560" src="https://www.youtube.com/embed/4sT2B2SRypo" title="ACCOUNTANT EXPLAINS: How I manage my money on payday: Income, Expenses &amp; Savings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+      <hr>
+      <footer>Personal Budget Tracker - Version - 1.0</footer>
+    </center>
+  </body>
+</html>
